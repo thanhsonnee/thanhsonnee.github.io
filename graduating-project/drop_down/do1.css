@@ -1,0 +1,243 @@
+
+.hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid #eee;
+}  
+.topnav div {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 0px;
+}
+
+.topnav li {
+    list-style: none;
+    margin: 0px 20px;
+}
+
+.topnav ul {
+    display: flex;
+    justify-content: space-around;
+    color: grey;
+    margin-top: 0px;
+}
+
+.topnav a {
+    text-decoration: none;
+    color: gray;
+}
+.topnav span {
+    font-size: 12px;
+}
+.sparkle {
+    background-color: gainsboro; 
+    max-width: 1600px; 
+    margin: 0px 150px; 
+    border-radius: 30px;
+}
+.ohno {
+    margin: auto;
+    padding: 20px 20px 15px;
+    border-radius: 30px;
+    display: flex;
+    width: 90%;
+    justify-content: space-around;
+    background-color: none;
+}
+
+.ohno .ohno_item {
+    width: 200px;
+    text-align: center;
+}
+.ohno_item div div {
+    margin-top: 26px;
+}
+.ohno img {
+    width: 150px;
+    height: 200px;
+}
+
+.ohno div a {
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+    display: block;
+    text-align: center;
+    margin: 10px 0;
+}
+.price {
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    font-size: 13px;
+}
+.bdi {
+    opacity: .5;
+    text-decoration: line-through;
+    font-weight: 400;
+    margin-right: 6px;
+}
+
+.clicktobuy {
+    border: 2px solid black;
+    display: inline-block;
+    font-size: 10px;
+    font-weight: 1000;
+    transition: 0.2s;
+    padding: 0px 10px;
+    text-transform: uppercase;
+}
+.clicktobuy:hover {
+    background-color: black;
+    margin: 10px 0px;
+    padding: 0px 10px;
+}
+.clicktobuy:hover a {
+    color: white;
+}
+/* .oops div :hover{
+    background-color: black;
+    transition: 0.4s;
+} */
+
+/* .listmenu ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+.listmenu li {
+    margin: 0px 20px;
+    
+}
+.listmenu a {
+    color: black;
+    font-weight: 700;
+    text-decoration: none;
+}
+.listmenu div {
+    height: 30px;
+} */
+.dropbtn {
+    background-color: white;
+    color: black;
+    padding: 10px;
+    font-size: .9em;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    list-style: none;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 10px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #f1f1f1;
+    }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .dropdown p :hover {
+    border-bottom: 2px solid black;
+  }
+
+  .dropdown:hover .dropbtn {
+    background-color: white;
+  }
+  .ok ul{
+    display: flex;
+    list-style: none;
+}
+.ok ul p {
+    margin :20px 30px  
+}
+
+
+
+
+
+.the {
+    padding-bottom: 10px;
+}
+.the a {
+    color: black;
+    text-decoration: none;
+    opacity: .6;
+    font-weight: 400;
+    padding: 0px 5px;
+}
+.the1 :hover {
+    opacity: 1;
+    display: inline-block;
+    background-color:gainsboro;
+    color: black;
+    border-radius: 30px;
+    padding: 5px 5px;
+}
+
+.contain {
+    background-color: black;
+    margin-top: 45px;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 30px;
+    color: white;
+
+}
+
+.contain img {
+    width: 30px;
+    margin: 0px 3px;
+}
+
+.contain li {
+    list-style: none;
+}
+
+.contain li a {
+    color: white;
+}
+
+.c2 , .c1, .c3{
+    width: 400px;
+    padding: 20px 10px;
+    line-height: 1.8;
+    
+}
+.c2 a{
+    margin-right: 2px;
+    text-decoration: none;
+    list-style: none;
+}
+
+.c1 ul, .c2 ul {
+    padding-left: 0px;
+}
+.str {
+    margin-bottom: 18px;
+}
+
+.the {
+    display: flex;
+    justify-content: space-around;
+}
