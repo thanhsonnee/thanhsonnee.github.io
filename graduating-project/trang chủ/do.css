@@ -1,0 +1,337 @@
+.topnav div {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3px;
+}
+
+.topnav li {
+    list-style: none;
+    margin: 0px 20px;
+}
+
+.topnav ul {
+    display: flex;
+    justify-content: space-around;
+    color: grey;
+}
+
+.topnav a {
+    text-decoration: none;
+    color: gray;
+}
+.topnav span {
+    font-size: 12px;
+}
+
+.present b {
+    display: block;
+    -webkit-box-flex: 1;
+    flex: 1;
+    height: 2px;
+    opacity: 0.3;
+    text-align: center;
+    background-color: currentColor
+}
+
+.product {
+    background-color: whitesmoke;
+}
+
+.ohno {
+    margin: auto;
+    padding: 20px 20px 50px 20px;
+    border-radius: 30px;
+    display: flex;
+    width: 80%;
+    justify-content: space-around;
+    /* background-color: rgb(255, 255, 255); */
+    background-color: white
+}
+
+.ohno .ohno_item {
+    border: 1px solid;
+    width: 200px;
+    text-align: center;
+}
+
+.ohno img {
+    width: 150px;
+    height: 200px;
+}
+
+.ohno div a {
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+    display: block;
+    text-align: center;
+    margin: 10px 0;
+}
+.ohno_item div div {
+    margin-top: 28px;
+}
+
+
+.price {
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    font-size: 13px;
+}
+
+.clicktobuy {
+    border: 2px solid black;
+    display: inline-block;
+    font-size: 10px;
+    font-weight: 1000;
+    transition: 0.4s;
+    padding: 0px 10px;
+    text-transform: uppercase;
+    height: auto;
+}
+.clicktobuy a {
+    color: black;
+}
+.clicktobuy:hover {
+    background-color: black;
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+.clicktobuy:hover a {
+    color: white;
+    text-decoration: none;
+}
+
+.sanpham {
+    font-family: 'Fira Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-size: 100%;
+    padding-top: 30px;
+    margin-bottom: 15px;
+}
+
+.uudai {
+    background-image: url(https://clmensstore.com/wp-content/uploads/2021/05/clean-white-brick-wall-textures-plain.jpg);
+    background-color: rgba(0, 0, 0, 0.209);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: 50px 0px 30px;
+
+}
+
+.story {
+    background-color: whitesmoke;
+    border-radius: 40px;
+    padding: 10px 50px;
+    font-size: 30px;
+    font-weight: 700;
+    text-shadow: 2px 2px 5px rgb(0 0 0 / 40%);
+    color: #e14d43;
+    font-weight: 600;
+    margin-top: 50px;
+
+}
+
+.uaoi {
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    position: relative;
+}
+.uaoi img {   
+    transition: .4s;
+
+}
+.uaoi_item:hover {
+    transition: .4s;
+    transform: scale(1.2);
+
+}
+.uaoi_item {
+    height: 200px;
+    width: 300px;
+    margin: 50px 20px 70px;
+}
+
+
+.moinhat {
+    font-weight: 700;
+    text-align: center;
+}
+#tin {
+    border: 1px solid;
+    padding: 10px 15px;
+    font-size: 18px;
+}
+
+/* .theb{
+    display: block;
+    -webkit-box-flex: .1;
+    flex: 1;
+    height: 2px;
+    opacity: 0;
+    background-color: currentColor; */
+#icon {
+    width: 20px;
+    justify-items: center;
+}
+
+.noice {
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    width: 80%;
+    padding: 20px 45px 40px;
+    position: relative;  
+}
+.noice_it {
+    overflow: hidden;
+}
+.noice_it h5 {
+    font-weight: bolder;
+}
+.noice_it:hover img {
+    transition: 1.6s;
+    transform: scale(1.2);
+    
+}
+.noice .noice_it {
+    text-align: center;
+    margin: 10px;
+    width: 250px;
+}
+.noice_it p {
+    padding-top: 21px;
+    color: rgba(0, 0, 0, 0.432);
+    font-size: 12px;
+}
+.noice_it img {
+    height: 200px;
+    width: 250px;
+    transition: 1.6s;
+}
+
+.oidoioi {
+    display: inline-block;
+    font-weight: 700;
+    border-bottom: 2px solid rgba(0, 0, 0, .1);
+    font-size: 20px;
+    margin: 0px 175px 28px;
+}
+
+.carousel-caption {
+    padding: 130px;
+    color: white;
+}
+
+.carousel-caption p {
+    margin-bottom: 0;
+    font-size: 20px;
+    font-style: italic;
+    display: flex;
+}
+
+.contain {
+    background-color: black;
+    margin-top: 45px;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 30px;
+    color: white;
+
+}
+
+.contain img {
+    width: 30px;
+    margin: 0px 3px;
+}
+
+.contain li {
+    list-style: none;
+}
+
+.contain li a {
+    color: white;
+}
+
+.c2 , .c1, .c3{
+    width: 400px;
+    padding: 20px 10px;
+    line-height: 1.8;
+}
+.str {
+    margin-bottom: 13px;
+}
+.c1 ul, .c2 ul {
+    padding-inline-start: 0px;
+}
+/* .listmenu ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.listmenu a {
+    color: black;
+    font-weight: 700;
+}
+.listmenu div {
+    height: 30px;
+} */
+.dropbtn {
+    background-color: white;
+    color: black;
+    padding: 10px;
+    font-size: .9em;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    list-style: none;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 10px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #f1f1f1;
+    }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .dropdown p :hover {
+    border-bottom: 2px solid black;
+  }
+
+  .dropdown:hover .dropbtn {
+    background-color: white;
+  }
+  .ok ul{
+    display: flex;
+    list-style: none;
+}
+.ok ul p {
+    margin :20px 30px  
+}
