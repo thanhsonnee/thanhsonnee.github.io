@@ -241,3 +241,12 @@
     display: flex;
     justify-content: space-around;
 }
+.logo {
+    width: 140px;
+    height: 65px; 
+}
+.logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

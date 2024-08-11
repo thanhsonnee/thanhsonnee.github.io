@@ -189,7 +189,7 @@ box-shadow: rgb(194, 192, 192) 2px 2px;
 color:deepskyblue;
 }
 .infor a:hover {
-text-decoration: none;
+text-decoration:none;
 }
 .upside {
     border-top: 1px solid #ececec;

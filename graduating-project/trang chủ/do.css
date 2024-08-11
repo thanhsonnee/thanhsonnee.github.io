@@ -184,7 +184,7 @@
     display: flex;
     justify-content: space-around;
     text-align: center;
-    width: 80%;
+    width: 100%;
     padding: 20px 45px 40px;
     position: relative;  
 }
@@ -334,4 +334,14 @@
 }
 .ok ul p {
     margin :20px 30px  
+}
+
+.logo {
+    width: 140px;
+    height: 65px; 
+}
+.logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
